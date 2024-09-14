@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="src/img/logo.svg" type="image/x-icon">
+    <title>Login screen</title>
+    <!-- https://iconscout.com/illustrations/job -->
+</head>
+
+<body>
+
+    <header class="header-nav">
+        <label class="sidebar">
+            <input type="checkbox" class="open-menu">
+
+            <div class="toggle">
+                <span class="top_line common"></span>
+                <span class="middle_line common"></span>
+                <span class="bottom_line common"></span>
+            </div>
+
+            <div class="slide">
+                <div class="info-container">
+                    <h1 class="slide-title">More...</h1>
+
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/victor-barros-6a2191282/?trk=opento_sprofile_topcard"
+                                target="_blank"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                        <li><a href="https://github.com/Vito-drid" target="_blank"><i
+                                    class="fa-brands fa-github"></i>GitHub</a></li>
+                    </ul>
+
+                    <div class="toggle-switch">
+                        <label class="switch-label">
+                            <input type="checkbox" class="checkbox" id="chk">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <p class="victor">© 2024 Victor Barros</p>
+            </div>
+        </label>
+    </header>
+
+    <main>
+        <section class="section-main">
+            <div class="img-container">
+                <p>Good to see you back!</p>
+                <img src="src/img/work1.svg" alt="work img">
+            </div>
+
+            <div class="principal-cotainer">
+                <div class="data-container">
+
+                    <div class="user-data">
+                        <p>User name</p>
+                        <input type="text" name="user-data" class="input-user-data">
+                    </div>
+
+                    <div class="password">
+                        <p>Password</p>
+                        <input type="password" class="input-user-data">
+                    </div>
+
+                    <div class="more-container">
+                        <div class="rememberme">
+                            <input type="checkbox" id="checkboxInput">
+                            <label for="checkboxInput" class="toggleSwitch"></label>
+                            <label for="checkboxInput">
+                                <p>Remember password</p>
+                            </label>
+                        </div>
+
+
+                        <p>Forget password?</p>
+                    </div>
+
+                </div>
+
+                <div class="login-container">
+                    <div class="login-btn">
+                        <button>Login</button>
+                    </div>
+                    <div class="or">
+                        <div class="bar-or"></div>
+                        Or
+                        <div class="bar-or"></div>
+                    </div>
+
+                    <div class="social-media-login">
+                        <i class="fa-brands fa-google social-icon"></i>
+                        <i class="fa-brands fa-facebook social-icon"></i>
+                        <i class="fa-brands fa-apple social-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
